@@ -1,0 +1,41 @@
+Atue como um Arquiteto de Software e Copywriter de Resposta Direta. Preciso que você gere um prompt mestre para o Replit Agent construir a Landing Page institucional da Tenet AI.
+
+1. Visão Geral do Produto: A Tenet AI é uma plataforma SaaS 'Enterprise-Ready' que funciona como uma fábrica de agentes de IA especializados (SDR, Vendas, Suporte, RH) integrados ao WhatsApp. A inteligência é movida pelo Google Gemini.
+
+2. Stack Técnica Exigida:
+
+Frontend: Next.js 15 (App Router) com TypeScript.
+
+Estilização: Tailwind CSS.
+
+UI/UX: Shadcn UI e Lucide React para ícones.
+
+Animações: Framer Motion (para um aspecto tecnológico fluido).
+
+3. Arquitetura e Links:
+
+O site deve ser uma Single Page Application (SPA) de alta performance.
+
+IMPORTANTE: O Dashboard técnico já existe em outro servidor. O site deve ter botões de CTA (Call to Action) 'Acessar Painel' que apontam para a URL externa: https://app.tenetai.com.br.
+
+4. Seções da Landing Page (Conteúdo Obrigatório):
+
+Hero Section: Headline focada em produtividade e automação 24/7. Subheadline mencionando a tecnologia Google Gemini.
+
+Nossos Tenets: Cards detalhando os agentes SDR (Qualificação), Sales (Conversão), Support (Atendimento) e RH (Triagem).
+
+Diferenciais Técnicos: Seção sobre Segurança Enterprise (isolamento de dados), Base de Conhecimento (RAG) com upload de documentos e A/B Testing de prompts.
+
+Planos e Preços (Tabela v2.0): * Starter (R$ 119,90/mês): 1 Agente, 300 conversas, 300k tokens.
+
+Professional (R$ 349,90/mês): 3 Agentes, 1.500 conversas, 1.5M tokens, Integração CRM.
+
+Tenet (R$ 499,90/mês): 5 Agentes, 5.000 conversas, 5M tokens, RAG (100 páginas), API e White-label.
+
+FAQ: Seção para quebrar objeções sobre segurança e tempo de configuração.
+
+5. Identidade Visual: Estética 'Dark Mode' ou 'Futuristic Clean'. Paleta: Ciano Elétrico (#00FFFF), Prata Metálico e Cinza Antracite.
+
+6. Instrução para o Replit Agent: 'Crie um projeto Next.js 15 seguindo a estrutura de diretórios padrão. Use Tailwind para um design responsivo. Crie componentes modulares para Navbar, Hero, FeatureCards, PricingTable e Footer. Certifique-se de que a página seja otimizada para SEO (Lighthouse score 90+). Configure o arquivo next.config.js para permitir o deploy na Vercel.'
+
+Claude, por favor, expanda este prompt com detalhes de implementação para que o Replit Agent não cometa erros de layout e entregue um site pronto para conversão.
